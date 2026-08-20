@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elevia — Conteúdo sobre tecnologia na educação: ferramentas, IA, desafios e o futuro do aprendizado.">
+  <title>Conteúdo | Elevia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sabedoria.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-in">
+    <a href="index.html" class="logo">
+      <span class="logo-dot"></span>
+      Elevia
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="conteudasso.html" class="active">Conteúdo</a>
+      <a href="bolo.html">Quiz</a>
+      <a href="tapioca.html">Equipe</a>
+    </div>
+    <a href="bolo.html" class="btn btn-primary btn-sm nav-cta">Fazer o Quiz</a>
+    <button class="burger" id="burger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mob-menu" id="mobMenu">
+  <a href="index.html"       onclick="closeMob()">Início</a>
+  <a href="conteudasso.html" onclick="closeMob()">Conteúdo</a>
+  <a href="bolo.html"        onclick="closeMob()">Quiz</a>
+  <a href="tapioca.html"     onclick="closeMob()">Equipe</a>
+  <a href="bolo.html" class="btn btn-primary" onclick="closeMob()">Fazer o Quiz</a>
+</div>
+
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&q=80" alt="">
+  </div>
+  <div class="wrap">
+    <div class="page-hero-inner">
+      <span class="badge badge-green reveal">Conteúdo educacional</span>
+      <h1 class="reveal d1">Tecnologia<br>na Educação</h1>
+      <p class="reveal d2">O essencial sobre como o digital está transformando a forma como ensinamos e aprendemos.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="content-layout">
+
+    <aside class="content-nav">
+      <h4>Neste conteúdo</h4>
+      <ul>
+        <li><a href="#o-que-e" class="active">O que é EdTech</a></li>
+        <li><a href="#ferramentas">Ferramentas</a></li>
+        <li><a href="#ia">Inteligência Artificial</a></li>
+        <li><a href="#desafios">Desafios</a></li>
+        <li><a href="#futuro">Futuro</a></li>
+      </ul>
+    </aside>
+
+    <div class="content-body">
+
+      <div class="content-block reveal" id="o-que-e">
+        <span class="badge badge-blue">Conceito</span>
+        <h2>O que é tecnologia na educação?</h2>
+        <p>
+          EdTech é a aplicação de ferramentas digitais, plataformas e metodologias tecnológicas para facilitar e transformar processos de ensino e aprendizagem. Não se trata de colocar um tablet nas mãos do aluno, mas de repensar como o aprendizado pode ser mais eficiente e inclusivo.
+        </p>
+        <figure class="content-img">
+          <img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1200&q=80" alt="Estudante em ambiente digital de aprendizagem">
+          <figcaption>O uso intencional da tecnologia é o que diferencia EdTech de simples digitalização de conteúdo.</figcaption>
+        </figure>
+        <div class="content-2col">
+          <div class="info-card">
+            <h4>Escala com personalização</h4>
+            <p>Atender milhões de estudantes com experiências adaptadas ao ritmo e dificuldade de cada um.</p>
+          </div>
+          <div class="info-card">
+            <h4>Acesso democratizado</h4>
+            <p>Eliminar barreiras geográficas e socioeconômicas para que qualquer pessoa possa aprender.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block reveal" id="ferramentas">
+        <span class="badge badge-green">Ferramentas</span>
+        <h2>Principais ferramentas digitais</h2>
+        <p>
+          O ecossistema educacional digital inclui desde ambientes de gestão de aprendizagem até simulações científicas interativas.
+        </p>
+        <div class="challenge-list">
+          <div class="challenge-item">
+            <span class="ci-num">01</span>
+            <div class="ci-text">
+              <h4>Ambientes Virtuais (LMS)</h4>
+              <p>Moodle, Canvas e Google Classroom centralizam conteúdos, avaliações e comunicação em um único espaço.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <span class="ci-num">02</span>
+            <div class="ci-text">
+              <h4>Gamificação</h4>
+              <p>Kahoot, Duolingo e Quizlet usam mecânicas de jogo para tornar o estudo mais engajante sem perder o rigor.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <span class="ci-num">03</span>
+            <div class="ci-text">
+              <h4>Laboratórios virtuais</h4>
+              <p>PhET e Labster simulam experimentos científicos complexos sem equipamentos físicos caros.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block reveal" id="ia">
+        <span class="badge badge-blue">Inteligência Artificial</span>
+        <h2>IA na educação</h2>
+        <p>
+          A IA não ensina no lugar do professor. Ela personaliza a experiência de quem aprende, identificando dificuldades em tempo real e adaptando o conteúdo para cada perfil.
+        </p>
+        <figure class="content-img">
+          <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80" alt="Inteligência artificial na educação">
+          <figcaption>Sistemas de IA analisam padrões de aprendizagem para personalizar a experiência de cada estudante.</figcaption>
+        </figure>
+        <div class="highlight-block-green highlight-block">
+          <p>Professores que usam IA vão substituir aqueles que não usam. O diferencial não está na tecnologia, mas na qualidade pedagógica de quem a conduz.</p>
+        </div>
+        <div class="content-2col">
+          <div class="info-card">
+            <h4>Tutores inteligentes</h4>
+            <p>Sistemas que identificam lacunas e propõem exercícios específicos para preenchê-las automaticamente.</p>
+          </div>
+          <div class="info-card">
+            <h4>Análise preditiva</h4>
+            <p>Algoritmos que alertam o professor quando um aluno está em risco de dificuldade antes que isso aconteça.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block reveal" id="desafios">
+        <span class="badge badge-green">Desafios</span>
+        <h2>O que ainda precisa mudar</h2>
+        <p>
+          A transformação digital na educação tem obstáculos reais que precisam ser enfrentados para que os benefícios cheguem a todos.
+        </p>
+        <div class="challenge-list">
+          <div class="challenge-item">
+            <span class="ci-num">01</span>
+            <div class="ci-text">
+              <h4>Exclusão digital</h4>
+              <p>29 milhões de brasileiros ainda não têm acesso regular à internet. Sem políticas de inclusão, a EdTech aprofunda desigualdades.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <span class="ci-num">02</span>
+            <div class="ci-text">
+              <h4>Formação docente</h4>
+              <p>Sem preparo pedagógico específico, a tecnologia na sala de aula vira distração em vez de ferramenta de aprendizagem.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <span class="ci-num">03</span>
+            <div class="ci-text">
+              <h4>Uso excessivo de telas</h4>
+              <p>O uso sem critério de dispositivos digitais está associado a problemas de atenção e ansiedade em crianças e adolescentes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block reveal" id="futuro">
+        <span class="badge badge-blue">Futuro</span>
+        <h2>Para onde caminha a educação</h2>
+        <p>
+          As tendências que já estão em fase experimental devem redefinir completamente o que significa aprender nas próximas décadas.
+        </p>
+        <div class="content-2col">
+          <div class="info-card">
+            <h4>Currículos personalizados por IA</h4>
+            <p>Trilhas de aprendizagem construídas individualmente para cada estudante, adaptadas em tempo real pelo desempenho.</p>
+          </div>
+          <div class="info-card">
+            <h4>Aprendizado imersivo</h4>
+            <p>Realidade virtual e aumentada permitindo experiências que seriam impossíveis no mundo físico.</p>
+          </div>
+          <div class="info-card">
+            <h4>Credenciais digitais</h4>
+            <p>Habilidades certificadas por blockchain, substituindo gradualmente o modelo tradicional de diplomas.</p>
+          </div>
+          <div class="info-card">
+            <h4>Educação contínua</h4>
+            <p>O aprendizado ao longo da vida como norma, com plataformas que acompanham a evolução profissional de cada pessoa.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-dot"></span>
+          Elevia
+        </a>
+        <p>Uma plataforma criada para explorar como a tecnologia está transformando a educação — de forma crítica, profunda e atual.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="conteudasso.html">Conteúdo</a></li>
+          <li><a href="bolo.html">Quiz</a></li>
+          <li><a href="tapioca.html">Equipe</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Nesta página</h5>
+        <ul>
+          <li><a href="#o-que-e">O que é EdTech</a></li>
+          <li><a href="#ferramentas">Ferramentas</a></li>
+          <li><a href="#ia">Inteligência Artificial</a></li>
+          <li><a href="#desafios">Desafios</a></li>
+          <li><a href="#futuro">Futuro</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>2026 Elevia — Projeto acadêmico sobre Tecnologia na Educação.</p>
+      <div class="footer-bar-links">
+        <a href="index.html">Início</a>
+        <a href="tapioca.html">Equipe</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

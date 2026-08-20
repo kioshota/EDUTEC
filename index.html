@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elevia — Explorando como a tecnologia transforma a educação no século XXI.">
+  <title>Elevia | Tecnologia que Eleva o Aprendizado</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/heroin.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-in">
+    <a href="index.html" class="logo">
+      <span class="logo-dot"></span>
+      Elevia
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Início</a>
+      <a href="conteudasso.html">Conteúdo</a>
+      <a href="bolo.html">Quiz</a>
+      <a href="tapioca.html">Equipe</a>
+    </div>
+    <a href="bolo.html" class="btn btn-primary btn-sm nav-cta">Fazer o Quiz</a>
+    <button class="burger" id="burger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mob-menu" id="mobMenu">
+  <a href="index.html"         onclick="closeMob()">Início</a>
+  <a href="conteudasso.html"   onclick="closeMob()">Conteúdo</a>
+  <a href="bolo.html"          onclick="closeMob()">Quiz</a>
+  <a href="tapioca.html"       onclick="closeMob()">Equipe</a>
+  <a href="bolo.html" class="btn btn-primary" onclick="closeMob()">Fazer o Quiz</a>
+</div>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1800&q=80" alt="">
+    </div>
+    <div class="wrap">
+      <div class="hero-in">
+        <div class="hero-content">
+          <span class="badge badge-blue reveal">Projeto Educacional</span>
+          <h1 class="hero-title reveal d1">
+            Aprender nunca foi<br>
+            <span class="grad-text">tão sem fronteiras.</span>
+          </h1>
+          <p class="hero-sub reveal d2">
+            A tecnologia não veio para substituir o professor ou o aluno.
+            Veio para remover os obstáculos entre quem ensina e quem aprende.
+          </p>
+          <div class="hero-btns reveal d3">
+            <a href="conteudasso.html" class="btn btn-primary btn-lg">Explorar Conteúdo</a>
+            <a href="bolo.html" class="btn btn-outline btn-lg">Fazer o Quiz</a>
+          </div>
+          <div class="hero-stats reveal d4">
+            <div>
+              <span class="hstat-val">93%</span>
+              <span class="hstat-label">mais engajamento com<br>métodos digitais</span>
+            </div>
+            <div>
+              <span class="hstat-val">2.6×</span>
+              <span class="hstat-label">mais retenção com<br>aprendizado ativo</span>
+            </div>
+            <div>
+              <span class="hstat-val">1.8bi</span>
+              <span class="hstat-label">estudantes impactados<br>por ferramentas digitais</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-img-col reveal d2">
+          <div class="hero-img-wrap">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=900&q=80" alt="Estudante usando tecnologia para aprender">
+          </div>
+          <div class="hero-pill hero-pill--1">
+            <div class="hp-icon hp-icon-green">
+              <img src="https://api.iconify.design/ph/chart-line-up-bold.svg?color=%232dd4a4&width=20" alt="" aria-hidden="true">
+            </div>
+            <div>
+              <span class="hp-val grad-text">+40%</span>
+              <span class="hp-txt">Desempenho médio</span>
+            </div>
+          </div>
+          <div class="hero-pill hero-pill--2">
+            <div class="hp-icon hp-icon-blue">
+              <img src="https://api.iconify.design/ph/graduation-cap-bold.svg?color=%235b8cff&width=20" alt="" aria-hidden="true">
+            </div>
+            <div>
+              <span class="hp-val">300M+</span>
+              <span class="hp-txt">Estudantes online</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro section">
+    <div class="wrap">
+      <div class="intro-grid">
+        <div class="intro-img reveal">
+          <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=900&q=80" alt="Sala de aula moderna com tecnologia">
+        </div>
+        <div class="intro-text">
+          <span class="badge badge-green reveal">Por que isso importa</span>
+          <h2 class="reveal d1">A sala de aula<br>mudou de endereço.</h2>
+          <div class="divider-line reveal d2"></div>
+          <p class="reveal d2">
+            Nas últimas duas décadas, a tecnologia transformou profundamente a maneira como o conhecimento é produzido, transmitido e assimilado. Hoje, aprender não depende mais de um lugar físico, de um horário fixo ou de um único professor.
+          </p>
+          <p class="reveal d3">
+            O que antes exigia semanas de estudo em bibliotecas, hoje está a um clique de distância — organizado, contextualizado e adaptado para cada perfil de aprendiz. Isso não é o futuro. Isso já é o presente.
+          </p>
+          <a href="conteudasso.html" class="btn btn-outline reveal d4">Entender mais profundamente</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-section section">
+    <div class="wrap">
+      <div class="stats-header">
+        <span class="badge badge-blue reveal">Dados relevantes</span>
+        <h2 class="reveal d1">Números que não deixam<br>dúvida sobre a mudança.</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="scard scard-featured reveal">
+          <div class="scard-img">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Tecnologia na educação">
+          </div>
+          <div class="scard-num scard-num-blue">65%</div>
+          <p>dos empregos do futuro ainda não existem. A educação precisa preparar para o desconhecido.</p>
+          <span class="scard-source">World Economic Forum, 2024</span>
+        </div>
+        <div class="scard reveal d1">
+          <div class="scard-num scard-num-green">300M+</div>
+          <p>pessoas têm acesso a plataformas de educação digital no mundo</p>
+          <span class="scard-source">UNESCO, 2024</span>
+        </div>
+        <div class="scard reveal d2">
+          <div class="scard-num scard-num-orange">40%</div>
+          <p>de redução no tempo de aprendizado com métodos digitais adaptativos</p>
+          <span class="scard-source">MIT Research</span>
+        </div>
+        <div class="scard reveal d3">
+          <div class="scard-num scard-num-blue">R$4bi</div>
+          <p>investidos em edtech no Brasil em 2023, maior marca histórica do setor</p>
+          <span class="scard-source">ABEdTech, 2023</span>
+        </div>
+        <div class="scard reveal d4">
+          <div class="scard-num scard-num-green">82%</div>
+          <p>dos professores afirmam que a tecnologia tornou suas aulas mais eficientes</p>
+          <span class="scard-source">CIEB, 2023</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits section">
+    <div class="wrap">
+      <div class="benefits-header">
+        <span class="badge badge-green reveal">Impacto real</span>
+        <h2 class="reveal d1">O que a tecnologia<br>realmente muda no aprendizado.</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="bcard reveal">
+          <div class="bcard-num">01</div>
+          <h3>Personalização do ritmo</h3>
+          <p>Algoritmos adaptativos identificam onde cada estudante tem dificuldade e ajustam o conteúdo em tempo real, eliminando a padronização que excluiu diferentes perfis de aprendizado.</p>
+        </div>
+        <div class="bcard reveal d1">
+          <div class="bcard-num">02</div>
+          <h3>Acesso sem barreiras geográficas</h3>
+          <p>Um estudante no interior do Acre pode acessar o mesmo conteúdo de alta qualidade que um estudante em São Paulo. A internet democratiza o conhecimento de forma irreversível.</p>
+        </div>
+        <div class="bcard reveal d2">
+          <div class="bcard-num">03</div>
+          <h3>Feedback imediato</h3>
+          <p>Sistemas digitais oferecem retorno instantâneo sobre o desempenho, permitindo ao estudante corrigir sua trajetória enquanto o aprendizado ainda está ativo.</p>
+        </div>
+        <div class="bcard reveal d3">
+          <div class="bcard-num">04</div>
+          <h3>Aprendizado por experiência</h3>
+          <p>Simulações, laboratórios virtuais e ambientes imersivos permitem que estudantes experimentem fenômenos impossíveis no mundo físico.</p>
+        </div>
+        <div class="bcard reveal d4">
+          <div class="bcard-num">05</div>
+          <h3>Colaboração global</h3>
+          <p>Ferramentas colaborativas derrubam as paredes da sala de aula. Projetos em grupo podem acontecer entre estudantes de continentes diferentes.</p>
+        </div>
+        <div class="bcard reveal d5">
+          <div class="bcard-num">06</div>
+          <h3>Dados para educadores</h3>
+          <p>Dashboards educacionais entregam ao professor uma visão granular do progresso de cada aluno, tornando a intervenção pedagógica mais precisa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tech-section section">
+    <div class="wrap">
+      <div class="tech-header">
+        <span class="badge badge-blue reveal">Ferramentas do presente</span>
+        <h2 class="reveal d1">Tecnologias que já estão<br>dentro da sala de aula.</h2>
+      </div>
+      <div class="tech-grid">
+        <article class="tcard reveal">
+          <div class="tcard-img">
+            <img src="https://images.unsplash.com/photo-1598618443855-232ee0f819f6?w=700&q=80" alt="Ambiente virtual de aprendizagem">
+          </div>
+          <div class="tcard-body">
+            <h3>Ambientes Virtuais de Aprendizagem</h3>
+            <p>Plataformas como Moodle, Canvas e Google Classroom centralizam conteúdos, avaliações e comunicação em um único ambiente organizado.</p>
+            <div class="tcard-tags">
+              <span>Moodle</span><span>Canvas</span><span>Google Classroom</span>
+            </div>
+          </div>
+        </article>
+        <article class="tcard reveal d1">
+          <div class="tcard-img">
+            <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=700&q=80" alt="Realidade aumentada na educação">
+          </div>
+          <div class="tcard-body">
+            <h3>Realidade Aumentada e Virtual</h3>
+            <p>Estudantes visitam o interior de uma célula em realidade virtual ou sobrepõem modelos 3D de anatomia. O aprendizado imersivo retém até 75% mais do conteúdo.</p>
+            <div class="tcard-tags">
+              <span>AR/VR</span><span>Imersão</span><span>3D</span>
+            </div>
+          </div>
+        </article>
+        <article class="tcard reveal d2">
+          <div class="tcard-img">
+            <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=700&q=80" alt="Gamificação no aprendizado">
+          </div>
+          <div class="tcard-body">
+            <h3>Gamificação</h3>
+            <p>Mecânicas de jogo como pontos, conquistas e rankings transformam a progressão acadêmica em uma experiência engajante sem reduzir o rigor do conteúdo.</p>
+            <div class="tcard-tags">
+              <span>Kahoot</span><span>Duolingo</span><span>Quizlet</span>
+            </div>
+          </div>
+        </article>
+        <article class="tcard reveal d3">
+          <div class="tcard-img">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=700&q=80" alt="Videoaulas online">
+          </div>
+          <div class="tcard-body">
+            <h3>Videoaulas e Podcasts</h3>
+            <p>Com YouTube, Spotify e plataformas de streaming, qualquer assunto pode ser estudado de forma audiovisual em qualquer hora e lugar.</p>
+            <div class="tcard-tags">
+              <span>YouTube</span><span>Podcast</span><span>Streaming</span>
+            </div>
+          </div>
+        </article>
+        <article class="tcard reveal d4">
+          <div class="tcard-img">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&q=80" alt="Laboratório virtual">
+          </div>
+          <div class="tcard-body">
+            <h3>Laboratórios Virtuais</h3>
+            <p>Simulações de experimentos científicos que antes exigiam equipamentos caros agora acontecem em plataformas acessíveis, democratizando o ensino experimental.</p>
+            <div class="tcard-tags">
+              <span>PhET</span><span>Labster</span><span>Simulação</span>
+            </div>
+          </div>
+        </article>
+        <article class="tcard reveal d5">
+          <div class="tcard-img">
+            <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=700&q=80" alt="Microlearning">
+          </div>
+          <div class="tcard-body">
+            <h3>Microlearning</h3>
+            <p>Conteúdo em cápsulas de 3 a 10 minutos respeita a neurociência do aprendizado: sessões curtas e frequentes constroem memória de longo prazo com mais eficiência.</p>
+            <div class="tcard-tags">
+              <span>Módulos</span><span>Flashcards</span><span>Spaced Learning</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai-section section">
+    <div class="wrap">
+      <div class="ai-grid">
+        <div class="ai-text">
+          <span class="badge badge-green reveal">Inteligência Artificial</span>
+          <h2 class="reveal d1">A IA não ensina.<br><span class="grad-text">Ela personaliza quem ensina.</span></h2>
+          <p class="reveal d2">
+            Modelos de linguagem, sistemas de recomendação e algoritmos de aprendizado de máquina estão sendo integrados em plataformas educacionais para criar experiências que se adaptam ao estudante em tempo real.
+          </p>
+          <div class="ai-points">
+            <div class="ai-point reveal d2">
+              <div class="ai-point-dot dot-blue"></div>
+              <div>
+                <h4>Tutores inteligentes</h4>
+                <p>Sistemas que identificam lacunas no conhecimento e propõem exercícios para preenchê-las.</p>
+              </div>
+            </div>
+            <div class="ai-point reveal d3">
+              <div class="ai-point-dot dot-green"></div>
+              <div>
+                <h4>Correção e análise de redações</h4>
+                <p>Ferramentas que analisam coerência, coesão e argumentação com profundidade próxima à avaliação humana.</p>
+              </div>
+            </div>
+            <div class="ai-point reveal d4">
+              <div class="ai-point-dot dot-orange"></div>
+              <div>
+                <h4>Detecção de dificuldades</h4>
+                <p>Modelos preditivos que sinalizam ao professor quando um aluno está em risco antes que isso aconteça.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ai-img-wrap reveal d2">
+          <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80" alt="Inteligência artificial na educação">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline-section section">
+    <div class="wrap">
+      <div class="timeline-header">
+        <span class="badge badge-blue reveal">Ontem e hoje</span>
+        <h2 class="reveal d1">A transformação<br>que já aconteceu.</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-year">1990</div>
+          <div class="tl-card">
+            <h3>Educação fisicamente limitada</h3>
+            <p>O acesso ao conhecimento dependia de presença física, livros impressos e uma rede restrita de professores. O aprendizado era linear e padronizado.</p>
+          </div>
+        </div>
+        <div class="tl-item tl-item--flip reveal d1">
+          <div class="tl-year">2000</div>
+          <div class="tl-card">
+            <h3>Os primeiros ambientes virtuais</h3>
+            <p>O surgimento do Moodle e o crescimento da banda larga abriram caminho para os primeiros cursos online. O EAD começa a ganhar legitimidade.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal d2">
+          <div class="tl-year">2012</div>
+          <div class="tl-card">
+            <h3>A era dos MOOCs</h3>
+            <p>Coursera, edX e Udemy democratizam o acesso a cursos de universidades de elite. Qualquer pessoa com internet pode assistir aulas do MIT ou Stanford.</p>
+          </div>
+        </div>
+        <div class="tl-item tl-item--flip reveal d3">
+          <div class="tl-year">2020</div>
+          <div class="tl-card">
+            <h3>A pandemia como catalisador</h3>
+            <p>O fechamento das escolas forçou uma transição digital acelerada. Professores e famílias se adaptaram em semanas ao que levaria anos em condições normais.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal d4">
+          <div class="tl-year">2024</div>
+          <div class="tl-card tl-card--now">
+            <h3>IA generativa na sala de aula</h3>
+            <p>Ferramentas como ChatGPT e Gemini entram definitivamente no cotidiano educacional. O debate não é mais "se" usar IA, mas "como" usá-la com responsabilidade.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-content-block section">
+    <div class="wrap">
+      <div class="cta-content-inner">
+        <div class="cta-content-text">
+          <span class="badge badge-green reveal">Material completo</span>
+          <h2 class="reveal d1">Aprofunde seu<br>conhecimento.</h2>
+          <p class="reveal d2">
+            Nossa página de conteúdo reúne uma análise detalhada sobre cada dimensão da tecnologia na educação — das ferramentas aos desafios éticos, do presente ao futuro próximo.
+          </p>
+          <a href="conteudasso.html" class="btn btn-primary btn-lg reveal d3">Acessar o conteúdo</a>
+        </div>
+        <div class="cta-img reveal d2">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&q=80" alt="Estudantes colaborando com tecnologia">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quiz-cta section">
+    <div class="quiz-cta-bg">
+      <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=1600&q=80" alt="">
+    </div>
+    <div class="wrap">
+      <div class="quiz-cta-inner">
+        <span class="badge badge-blue reveal">Quiz interativo</span>
+        <h2 class="reveal d1">Quanto você realmente<br>sabe sobre EdTech?</h2>
+        <p class="reveal d2">10 perguntas. Nenhuma pressão. Mas talvez algumas surpresas.</p>
+        <a href="bolo.html" class="btn btn-green btn-lg reveal d3">Iniciar o Quiz agora</a>
+        <div class="quiz-meta reveal d4">
+          <span>10 questões</span>
+          <span class="quiz-meta-dot"></span>
+          <span>Pontuação ao final</span>
+          <span class="quiz-meta-dot"></span>
+          <span>Classificação de desempenho</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-preview section">
+    <div class="wrap">
+      <div class="team-preview-grid">
+        <div class="team-text">
+          <span class="badge badge-blue reveal">Por trás do projeto</span>
+          <h2 class="reveal d1">Desenvolvido por<br>quem estuda o tema.</h2>
+          <p class="reveal d2">
+            O Elevia foi construído por um grupo de estudantes comprometidos em explorar, de forma aprofundada, como a tecnologia está redesenhando o campo educacional.
+          </p>
+          <a href="tapioca.html" class="btn btn-outline reveal d3">Conhecer a equipe</a>
+        </div>
+        <div class="team-avatars reveal d2">
+          <div class="t-avatar-item">
+            <div class="t-avatar">
+              <img src="css/Nathan.jpeg" alt="Nathan">
+            </div>
+            <span class="t-avatar-name">Nathan</span>
+          </div>
+          <div class="t-avatar-item">
+            <div class="t-avatar">
+              <img src="css/Felipe.jpeg" alt="Pedro Henrique">
+            </div>
+            <span class="t-avatar-name">Pedro H.</span>
+          </div>
+          <div class="t-avatar-item">
+            <div class="t-avatar">
+              <img src="css/Murilinho.jpeg" alt="Murilo">
+            </div>
+            <span class="t-avatar-name">Murilo</span>
+          </div>
+          <div class="t-avatar-item">
+            <div class="t-avatar">
+              <img src="css/Andrey.jpeg" alt="Andrey">
+            </div>
+            <span class="t-avatar-name">Andrey</span>
+          </div>
+          <div class="t-avatar-item">
+            <div class="t-avatar">
+              <img src="css/PH.jpeg" alt="Felipe Carvalho">
+            </div>
+            <span class="t-avatar-name">Felipe C.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-dot"></span>
+          Elevia
+        </a>
+        <p>Uma plataforma criada para explorar como a tecnologia está transformando a educação — de forma crítica, profunda e atual.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="conteudasso.html">Conteúdo</a></li>
+          <li><a href="bolo.html">Quiz</a></li>
+          <li><a href="tapioca.html">Equipe</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Conteúdo</h5>
+        <ul>
+          <li><a href="conteudasso.html#o-que-e">O que é EdTech</a></li>
+          <li><a href="conteudasso.html#ferramentas">Ferramentas</a></li>
+          <li><a href="conteudasso.html#ia">Inteligência Artificial</a></li>
+          <li><a href="conteudasso.html#futuro">Futuro da Educação</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>2026 Elevia — Projeto acadêmico sobre Tecnologia na Educação.</p>
+      <div class="footer-bar-links">
+        <a href="index.html">Início</a>
+        <a href="tapioca.html">Equipe</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

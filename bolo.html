@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elevia — Quiz sobre tecnologia na educação. Teste seus conhecimentos sobre EdTech.">
+  <title>Quiz | Elevia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nhoque.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-in">
+    <a href="index.html" class="logo">
+      <span class="logo-dot"></span>
+      Elevia
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="conteudasso.html">Conteúdo</a>
+      <a href="bolo.html" class="active">Quiz</a>
+      <a href="tapioca.html">Equipe</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mob-menu" id="mobMenu">
+  <a href="index.html"       onclick="closeMob()">Início</a>
+  <a href="conteudasso.html" onclick="closeMob()">Conteúdo</a>
+  <a href="bolo.html"        onclick="closeMob()">Quiz</a>
+  <a href="tapioca.html"     onclick="closeMob()">Equipe</a>
+</div>
+
+<div class="quiz-page">
+
+  <div class="quiz-hero">
+    <div class="quiz-hero-bg">
+      <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=1400&q=80" alt="">
+    </div>
+    <div class="wrap">
+      <div class="quiz-hero-inner">
+        <span class="badge badge-blue">Quiz interativo</span>
+        <h1>Tecnologia na Educação</h1>
+        <p>Teste o quanto você sabe sobre EdTech, inteligência artificial, ferramentas digitais e o futuro do aprendizado.</p>
+        <div class="quiz-info-bar">
+          <span>10 questões</span>
+          <span class="qib-dot"></span>
+          <span>Pontuação ao final</span>
+          <span class="qib-dot"></span>
+          <span>Classificação de desempenho</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quiz-wrap">
+    <div class="quiz-container">
+
+      <div class="quiz-start" id="quizStart">
+        <div class="quiz-start-img">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&q=80" alt="Estudantes se preparando para o quiz">
+        </div>
+        <h2>Pronto para começar?</h2>
+        <p>Este quiz aborda os principais temas da tecnologia na educação: plataformas digitais, inteligência artificial, gamificação, desafios da implementação e tendências futuras.</p>
+        <div class="quiz-rules">
+          <div class="quiz-rule">
+            <div class="qr-icon">10</div>
+            <span>10 perguntas de múltipla escolha</span>
+          </div>
+          <div class="quiz-rule">
+            <div class="qr-icon">1</div>
+            <span>Uma resposta correta por questão</span>
+          </div>
+          <div class="quiz-rule">
+            <div class="qr-icon">F</div>
+            <span>Feedback imediato após cada resposta</span>
+          </div>
+          <div class="quiz-rule">
+            <div class="qr-icon">P</div>
+            <span>Pontuação e classificação ao final</span>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-lg" id="btnStart">Iniciar o Quiz</button>
+      </div>
+
+      <div class="quiz-active" id="quizActive">
+        <div class="quiz-progress">
+          <div class="qp-bar-wrap">
+            <div class="qp-bar" id="progressBar" style="width:0%"></div>
+          </div>
+          <span class="qp-label" id="progressLabel">1 / 10</span>
+        </div>
+
+        <div class="quiz-question-card">
+          <div class="qq-num" id="questionNum">Questão 01</div>
+          <div class="qq-text" id="questionText"></div>
+          <div class="qq-options" id="questionOptions"></div>
+          <div class="qq-feedback" id="questionFeedback"></div>
+          <div class="qq-actions">
+            <button class="btn btn-primary" id="btnNext" style="display:none">Próxima</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz-result" id="quizResult">
+        <div class="result-card">
+          <div class="result-score grad-text" id="resultScore">0</div>
+          <div class="result-of" id="resultOf">de 10 questões corretas</div>
+          <div class="result-badge" id="resultBadge"></div>
+          <p class="result-msg" id="resultMsg"></p>
+          <div class="result-actions">
+            <button class="btn btn-outline" id="btnRestart">Tentar novamente</button>
+            <a href="conteudasso.html" class="btn btn-primary">Revisar o conteúdo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-dot"></span>
+          Elevia
+        </a>
+        <p>Uma plataforma criada para explorar como a tecnologia está transformando a educação — de forma crítica, profunda e atual.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="conteudasso.html">Conteúdo</a></li>
+          <li><a href="bolo.html">Quiz</a></li>
+          <li><a href="tapioca.html">Equipe</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Quiz</h5>
+        <ul>
+          <li><a href="bolo.html">Fazer o quiz</a></li>
+          <li><a href="conteudasso.html">Revisar conteúdo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>2026 Elevia — Projeto acadêmico sobre Tecnologia na Educação.</p>
+      <div class="footer-bar-links">
+        <a href="index.html">Início</a>
+        <a href="tapioca.html">Equipe</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/perguntinha.js"></script>
+</body>
+</html>
