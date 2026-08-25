@@ -38,7 +38,7 @@
   --t: 240ms ease;
   --ts: 420ms ease;
 
-  --wrap:    1160px;
+  --wrap:    1200px;
   --px:      clamp(20px, 5vw, 56px);
   --section: clamp(72px, 9vw, 120px);
 }
